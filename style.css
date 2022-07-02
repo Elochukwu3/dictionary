@@ -135,27 +135,16 @@
   font-size: 16px;
 }
 .meaning_container ul {
-  /* background-color: #0539df; */
+  
   border-bottom: 2px solid gray;
   border-top: 2px solid gray;
   border-left: 5px solid black;
   padding: 20 10px;
   box-shadow: 0px 0px 8px 1px whitesmoke;
   height: auto;
-  /* animation: skeleton 2s ease infinite; */
+ 
 }
-/* @keyframes skeleton{
-    0%{
-        opacity: 0.2;
-    }
-    50%{
-        opacity: 0.4;
-       transform: scale(1.02);
-    }
-    100%{
-        opacity: 0.8;
-    }
-} */
+
 .word_synonymns {
   display: flex;
   flex-wrap: wrap;
