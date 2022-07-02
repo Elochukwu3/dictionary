@@ -1,5 +1,5 @@
 //  declarations
-window.alert("Hey input word and Click on the button to Search for words")
+// alert("Hey input word and Click on the button to Search for words")
 let wordContent = document.querySelector("#word");
 let infoText = document.querySelector(".info-text");
 let phoneticSymbol = document.querySelector("#phonetics_symbols");
