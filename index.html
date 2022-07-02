@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Gulzar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-wrapper">
+    <div class="dictionary-container">
+        <div class="heading-text">
+            <h1>English Dictionary</h1>
+        </div>
+        <!-- input_search container(where you search your word) -->
+        <div class="input-container">
+          <div>
+            <div class="input_form">
+                <input type="text" id="input_search" placeholder="" value="">
+                <i class="fas fa-search search_icon"></i>
+                <span for="text" id="input_label">Search</span>
+                <button class="click" onclick="clicking()">SEARCH</button>
+            </div>
+            <!-- info-text(displays information below) -->
+            <div class="info-text">
+                Type a word and click on button to key meaning, example, pronunciation, and synonymns of the typed words.
+            </div>
+          </div>
+        </div>
+        <!--word_container contains,  word meaning, phonetic symbol and  -->
+        <div class="word_container">
+            <div class="word-inner" on>
+                <div class="word_sound_container">
+                    <h2 id="word">word</h2>
+                    <h3 id="part_of_speechCont">
+                       <!-- <div id="part_of_speech"> preposition</div> -->
+                       <p><i id="phonetics_symbols">/sound/</i></p>
+                        
+                    </h3>
+                </div>
+                <div id="sound_container">
+                    <p>
+                        <i class="fas fa-volume-up audio"></i>
+                    </p>
+                    <p class="audio-speak"></p>
+                </div>
+            </div> 
+            <!-- meaning_container contains,  word meaning, sound,synonyms -->
+            <div class="word_meaning_container">
+                
+                <div class="meaning_container">
+                    <h2>Meaning</h2>
+                    <!-- noun -->
+                    <div id="part_of_speechVerb"> Verb</div>
+                    <ul>
+                        <li>
+                            <p class="verb_meaning">
+                               Searched meaning............
+
+                            </p>
+                            <div class="verb_example">
+                                "he runs to school"
+                            </div>
+                            <div class="verb_similar">
+                           <!-- Similar:<button>Simila</button>
+                                <button>Simila</button>
+                                <button>Simila</button> -->
+                            </div>
+
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+                <div class="meaning_container">
+                    <!-- verb -->
+                    <div id="part_of_speechNoun" > </div>
+                    <ul>
+                        <li class="word_example">
+                           <div class="noun_meaning">
+                            Milissa come in looking happy and excited
+                           </div>
+                           <div class="noun_example">
+                            "he is coming"
+                           </div>
+                           <div class="noun_similar">
+                            <!-- Similar:<button>Simila</button>
+                                 <button>Simila</button>
+                                 <button>Simila</button> -->
+                             </div>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+                <div class="meaning_container">
+                    <!-- preposition -->
+                    <div id="part_of_speechPrep"> preposition: </div>
+                    <ul>
+                        <li class="word_synonymns">
+                            <p class="prep_meaning">
+                                when he comes ang he gofgghs
+                            </p>
+                            <p class="prep_example">
+                                "he is coming to tell you who you are"
+                            </p>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
