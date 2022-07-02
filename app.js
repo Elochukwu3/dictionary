@@ -1,8 +1,5 @@
 //  declarations
-// let partSpeechContent = document.querySelector("#part_of_speech");
-// let wordMeaning = document.querySelector(".word_meaning");
-// let wordExample = document.querySelector(".word_example");
-// let wordSynonym = document.querySelector(".word_synonymns");
+
 let wordContent = document.querySelector("#word");
 let infoText = document.querySelector(".info-text");
 let phoneticSymbol = document.querySelector("#phonetics_symbols");
@@ -181,3 +178,4 @@ function fetchApi(word) {
 //         fetchApi(e.target.value)
 //     }
 // })
+window.alert("Hey input word and Click on the button to Search for words")
