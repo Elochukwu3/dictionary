@@ -176,4 +176,18 @@
         color: grey;
         margin-top: 15px;
       }
+      #input_label{
+        font-size: 14px;
+        left: 0.6rem;
+      }
+      .info-text {
+        height: 8vh;
+        display: flex;
+        align-items: flex-end;
+        line-height: 20px;
+        color: gray;
+        flex-wrap: wrap;
+        margin-top: 4px;
+      
+      }
   }
