@@ -24,7 +24,7 @@ const displayResult = (result, word) =>{
     let audioTrans;
     // console.log(result);
     if (result.title)  {
-        infoText.innerHTML =`Can't find the word <span>"${word}"</span>, please try search another word`
+        infoText.innerHTML =`Can't find the word "${word}", please try search another word`
         let infoSpan = document.querySelector(".info-text span");
             infoSpan.style.color = "red";   
             overAll.style.color= "grey"; 

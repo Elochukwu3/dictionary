@@ -74,7 +74,7 @@
   color: #0539df;
   width: 50px;
   text-align: center;
-  font-size: 26px;
+  font-size: 20px;
   text-align: center;
 }
 #input_search:focus ~ #input_label,
@@ -175,5 +175,19 @@
         display: block;
         color: grey;
         margin-top: 15px;
+      }
+      #input_label{
+        font-size: 14px;
+        left: 0.6rem;
+      }
+      .info-text {
+        height: 8vh;
+        display: flex;
+        align-items: flex-end;
+        line-height: 20px;
+        color: gray;
+        flex-wrap: wrap;
+        margin-top: 4px;
+      
       }
   }
